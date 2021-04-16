@@ -1,5 +1,5 @@
 **TEST**
-- Per poter testare il componente richiesto, copiare il contenuto di questo zip all'interno della cartella "src" di un qualsiasi progetto React.
+- Per poter testare il componente richiesto, copiare i file all'interno della cartella "src" di un qualsiasi progetto React.
 - Il file index.js è la pagina di prova del componente.
 - Ho realizzato 2 componenti con grafiche diverse (non ero sicuro di quale andasse bene)
 - Per avviare il server utilizzare il comando "npm-start" o "yarn-start" all'interno del progetto React
