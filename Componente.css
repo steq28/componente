@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Inter");
+
+.spazioComponente {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 170px;
+}
+
+.containerPrincipale {
+  width: 90%;
+  height: 120px;
+  border-collapse: collapse;
+}
+
+.containerPrincipale p {
+  margin: 0;
+}
+
+.meseGlobal {
+  width: calc(100% / 12);
+  height: 100%;
+  padding: 0;
+  border: 1.5px solid #ebedee;
+  border-bottom: none;
+  cursor: pointer;
+}
+
+.meseGlobal p {
+  margin: 0;
+}
+
+.meseInfo {
+  /*height: 60px;*/
+  height: 70%;
+  padding: 7px;
+  padding-bottom: 0;
+  width: calc(100% - 14px) !important;
+}
+
+.mese {
+  font-family: Inter;
+  font-weight: 800;
+  font-size: 13px;
+  color: #0d97d5;
+  padding-left: 5px;
+}
+
+.doc {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 13px;
+  color: #6f7e86;
+}
+
+.importo {
+  font-family: Inter;
+  font-weight: 800;
+  font-size: 13px;
+  color: #00875a;
+}
+
+/*RIMUOVERE LA POSSIBILITA DI DRAGGING DEGLI ELEMENTI E LA POSSIBILITA DI EVIDENZIARE IL TESTO QUANDO SI SELEZIONANO I MESI*/
+*,
+*::after,
+*::before {
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-app-region: no-drag;
+}
